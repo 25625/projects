@@ -1,0 +1,160 @@
+body{
+  background-image:url(https://www.roseintech.com/wp-content/uploads/2017/03/Fotolia_109858010_XS.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 750px;
+
+}
+.menu ul{
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+  height: 500px;
+}
+li{
+  left: 10px;
+}
+ul li{
+  display:inline-flex;
+  font-size: 20px;
+  font-style: italic;
+  margin: 30px;
+  padding: 20px;
+  color:white;
+  }
+
+
+  #button1{
+   position: absolute;
+  top:50px;
+  left:130px;
+
+}
+#button1 #off1{
+  position:absolute;
+  left:90px;
+}
+#button1 input{
+  position: absolute;
+  height: 40px;
+  border:0;
+  background: none;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 10px 15px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  width:80px;
+}
+#button1 input[type="submit"]:hover{
+  color:#2ecc71;
+  background: #2ecc71;
+  box-shadow:0 0 10px #2ecc71,0 0 40px #2ecc71,0 0 80px #2ecc71;
+  transition-delay: 0.1s;
+  color:white;
+}
+
+
+#button2{
+ position: absolute;
+top:175px;
+left:130px;
+}
+#button2 #off2{
+position:absolute;
+left:90px;
+}
+#button2 input{
+position: absolute;
+height: 40px;
+width:80px;
+border:0;
+background: none;
+display: block;
+margin: 0px auto;
+text-align: center;
+border: 2px solid #2ecc71;
+padding: 0px 0px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition: 0.25s;
+}
+#button2 input[type="submit"]:hover{
+  color:#2ecc71;
+  background: #2ecc71;
+  box-shadow:0 0 10px #2ecc71,0 0 40px #2ecc71,0 0 80px #2ecc71;
+  transition-delay: 0.1s;
+  color:white;
+}
+
+#button3{
+ position: absolute;
+top:297px;
+left:130px;
+}
+#button3 #off3{
+position:absolute;
+left:90px;
+}
+#button3 input{
+position: absolute;
+height: 40px;
+width:80px;
+border:0;
+background: none;
+display: block;
+margin: 0px auto;
+text-align: center;
+border: 2px solid #2ecc71;
+padding: 0px 0px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition: 0.25s;
+}
+#button3 input[type="submit"]:hover{
+  color:#2ecc71;
+  background: #2ecc71;
+  box-shadow:0 0 10px #2ecc71,0 0 40px #2ecc71,0 0 80px #2ecc71;
+  transition-delay: 0.1s;
+  color:white;
+}
+
+
+
+#button4{
+position: absolute;
+top: 417px;
+left: 130px;
+}
+#button4 #off4{
+  position: absolute;
+  left: 90px;
+}
+#button4 input{
+  position: absolute;
+  height: 40px;
+  width: 80px;
+  border:0;
+  background: none;
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 0px 0px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+#button4 input[type="submit"]:hover{
+  color:#2ecc71;
+  background: #2ecc71;
+  box-shadow:0 0 10px #2ecc71,0 0 40px #2ecc71,0 0 80px #2ecc71;
+  transition-delay: 0.1s;
+  color:white;
+}
