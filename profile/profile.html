@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Profile of David</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+	Select Voice: <select id='voiceList'></select> <br><br>
+	<header>
+		<div id="start">
+			<img src="pp.jpg" width="50px" height="50px" id="Profilephoto" alt="Passport Photo">
+			<a class='heading'>My Profile</a>
+		</div>
+		<nav>
+			<ul>
+				<li class="nav_lists"><a href="#CareerObjective">About</a></li>
+				<li class="nav_lists"><a href="#Academic">Education</a></li>
+				<li class="nav_lists"><a href="#Skil">Skills</a></li>
+				<li class="nav_lists"><a href="#Projects">Projects</a></li>
+				<li class="nav_lists"><a href="#intern">Professional</a></li>
+				<li class="nav_lists"><a href="#Activites">Activities</a></li>
+				<li class="nav_lists"><a href="#personal">Personal</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id='CareerObjective' onmouseover="COBtnon()" onmouseleave="COBtnOff()">
+		<h2>Career Objective</h4>
+		<p>
+			To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization.
+		</p>
+		<button id="COBtn" onclick="COF()">Speak</button>
+	</section>
+	<section id="Academic" title="Academics" onmouseover="AcaBtnon()" onmouseleave="AcaBtnOff()">
+		<h2>Academic Qualifictions:</h2>
+		<table id="tabAcademics">
+			<tr>
+				<th class="Academics">Qualification</th>
+				<th class="Academics">Institute / Board</th>
+				<th class="Academics">Year Of Passing</th>
+				<th class="Academics">CPGA/Percentage</th>
+			</tr>
+			<tr>
+				<td class="Academics">B.E (ECE)</td>
+				<td class="Academics">Oxford University <br>England</td>
+				<td class="Academics">2021</td>
+				<td class="Academics">8.78</td>
+			</tr>
+			<tr>
+				<td class="Academics">Intermediate</td>
+				<td class="Academics">Tirumala<br>Tirupti</td>
+				<td class="Academics">2017</td>
+				<td class="Academics">88.9%</td>
+			</tr>
+			<tr >
+				<td class="Academics">Tenth</td>
+				<td class="Academics">Siddharth<br>siricella</td>
+				<td class="Academics">2015</td>
+				<td class="Academics">9.2</td>
+			</tr>
+		</table>
+		<button id="AcaBtn" onclick="Academic()">Speak</button><br>
+	</section>
+	<section id ="Skil" class="Skills" title="Skills" onmouseover="SkiBtnon()" onmouseleave="SkiBtnOff()">
+		<table id="Skill">
+			<tr class="Skill">
+				<th style="text-align: left;font-size: 20px;">Skill set</th>
+				<td></td>
+			</tr>
+			<tr class="Skill">
+				<th class="Skill">Programming Languages:</th>
+				<td class="Skill">C, C++, Verilog, Mathlab, Java.</td>
+			</tr>
+			<tr class="Skill">
+				<th class="Skill">Web Techonologies:</th>
+				<td class="Skill">HTML, CSS, PHP.</td>
+			</tr>
+			<tr class="Skill">
+				<th class="Skill">Data Base:</th>
+				<td class="Skill">SQL.</td>
+			</tr>
+			<tr class="Skill">
+				<th class="Skill">Tools:</th>
+				<td class="Skill">Arduino, PhpMyAdmin, Xilinx.</td>
+			</tr>
+		</table>
+		<button id="Ski" onclick="Skil()">Speak</button>
+	</section>
+	<section id="Projects" title="Projects" onmouseover="ProBtnon()" onmouseleave="ProBtnOff()">
+		<h2>Projects</h2>
+		<a id="first" onmouseover="FProBtnon()" onmouseleave="FProBtnOff()">
+		<h4 title="First Project"><span class="dispaly">Major Project in B.E.</span>Title: Performance Analysis of an Efficient Configurable Logic Block For Low Power Applications</h4>
+			<p>	
+			<span class="description">Description:</span>
+			FPGAs are semi-custom devices. These can be programmed for different application. The functional element in a FPGA is configurable logic block (CLB). FPGA circuit consume less power, should have less delay, should have less error rate, and also less power dissipation.
+			These are used for testing and developing new eletronic devices.
+				
+			</p>
+			<button id="FProBtn" onclick="prof()">Speak</button>
+		</a>
+		<a id="second" onmouseover="SProBtnon()" onmouseleave="SProBtnOff()">
+		<h4 title="Second Project"><span class="dispaly">Second Project.</span>Title: Digital clock using Verilog.</h4>
+		<p>
+			<span class="description">Description:</span>RTL (Register Transfer Logic) is a part of ASIC (Application Specific Integrated Circuits) design Flow. It is used to simulate the Verilog code. It is used for developing electronic components like microprocessors, micro controller etc. Digital clock is written in Verilog and simulated and wave forms are produced. The tool used for generating the wave forms is Xilinx.
+		</p>
+		<button id="SProBtn" onclick="pros()">Speak</button>
+		</a>
+		<a id="third" onmouseover="TProBtnon()" onmouseleave="TProBtnOff()">
+		<h4 title="Third Project"><span class="dispaly">Third project.</span>Title: Home Automation using Raspberry Pi.</h4>
+		<p>
+			<span class="description">Description:</span>Home automation is an application Internet of Things (IOT) which is a advanced technology use to control all the home electrical, electronic and other appliances. All the appliances are controlled by webpages. Raspberry pi is used as controller. Python is used as programming language in raspberry pi to communicate with the webpage.  The webpages are designed by using HTML (Hyper Text Markup Language), CSS (Cascading Style Sheets), PHP (Personal Home Page).
+		</p>
+		<button id="TProBtn" onclick="prot()">Speak</button><br>
+		</a>
+		<button id="ProBtn" onclick="Pro()">Speak Projects</button><br>
+	</section>
+	<section title="internships" id="intern" onmouseover="InBtnon()" onmouseleave="InBtnOff()">
+		<h2>Internships</h2>
+		<ol>
+			<li><p title="qualcom Internship">
+				Completed One-week internship on optical fibre in Qualcum.<br>The topics learned are types of optical fibers, construction, communication of optical fibers <br>Chennai (DEC-2018).
+			</p></li>
+			<li><p title="Intel Internship">
+				Completed Two weeks internship on VLSI in Intel Pvt Ltd.<br>The topics learned are ASIC flow, Verilog coding<br> Bangalore (MAY-2019).
+			</p></li>
+		</ol>
+		<button id="InBtn" onclick="Intern()">Speak</button><br>
+	</section>
+	<section title="certifitions" id="certify" onmouseover="CerBtnon()" onmouseleave="CerBtnOff()">
+		<h2>Certifications</h2>
+		<ol>
+			<li>Completed course on Introduction to HTML, CSS offered by Coursera.</li>
+			<li>Completed course on Introduction to PHP, SQL offered by Coursera</li>
+			<li>Completed course on VERILOG offered by Central Institute For Tool Design, Dehardun</li>
+		</ol><br>
+		<button id="CerBtn" onclick="Certify()">Speak</button><br>
+	</section>
+	<section title="Co-Curicular Activities" id="Activites" onmouseover="CoBtnon()" onmouseleave="CoBtnOff()">
+		<h2>Activites</h2>
+		<ul>
+			<li>Workshops</li>
+				<ol>
+					<li>Participated in 'IOT' Workshop in SIST.</li>
+					<li>Participated in 'ARDUINO' Workshop at SIST.</li>
+					<li>Participated in 'Solar' Workshop at SIST</li>
+				</ol>
+			<li>Membership</li>
+				<ol>
+					<li>Member of AERO-Club in SIST.</li>
+					<li>Member of ISTE Club</li>
+				</ol>
+		</ul>
+		<button id="CoBtn" onclick="Activity()" >Speak</button><br>
+	</section>
+	<section title="Personal Information" id="personal" onmouseover="PerBtnon()" onmouseleave="PerBtnOff()">
+		<h2>Personal Information</h2>
+		<table>
+			<tr>
+				<th>Name:</th>
+				<td>Jhon David</td>
+			</tr>
+			<tr>
+				<th>Father Name:</th>
+				<td>Mickel Hussy</td>
+			</tr>
+			<tr>
+				<th>DOB:</th>
+				<td>30-02-1995</td>
+			</tr>
+			<tr>
+				<th>Hobbies:</th>
+				<td>Mobile, Cooking, Cricket.</td>
+			</tr>
+			<tr>
+				<th>Gender:</th>
+				<td>Male.</td>
+			</tr>
+			<tr>
+				<th>Languages:</th>
+				<td>English, French, German.</td>
+			</tr>
+			<tr>
+				<th>Address:</th>
+				<td>5-23, Michgun, Australia</td
+				>
+			</tr>
+		</table>
+		<button id="PerBtn" onclick="Personal()">Speak</button><br>
+	</section>
+</body>
+<script type="text/javascript" src="Javascript.js"></script>
+</html>
